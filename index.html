@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Adventure Game</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/meyer-reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+</head>
+  
+<body>
+  <article class="content-wrapper">
+    <header>
+      <h1>Traverse across the forest of mystery and find ye treasure!</h1>
+    </header>
+    
+    <figure>
+      <p>Hello there, traveler! What brings you to this forest? Treasure, you say? Yes, the stories are true. I've been looking myself, but no luck. It's easy to get lost in there... Some don't make it back.</p>
+    </figure>
+    
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="pictures/green-forrest.jpg" alt="Mystery Forrest">
+        <div class="carousel-caption">
+          <h3>Make haste</h3>
+          <p>Danger can strike at any moment!</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="pictures/forrest-2.jpg" alt="Foilage">
+        <div class="carousel-caption">
+          <h3>Don't give up</h3>
+          <p>You won't get the treasure if you give up</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="pictures/forrest3.jpg" alt="PNW Forrest">
+        <div class="carousel-caption">
+          <h3>Don't get lost</h3>
+          <p>It's hard out there</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+      
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    </div>
+    
+    <audio controls>
+      <source src="song/07%20Solitude.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="scripts/adventure.js"></script> 
+  </article>
+</body>
+</html>
